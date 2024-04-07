@@ -4,7 +4,7 @@ import { cn } from "../../utils/cn";
 import { Spotlight } from "../ui/spotlight";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const words = `Hmmm, I like looking into tech, such as JS where there is unlimited stuff to learn, and work on both the ends. :]`;
+const words = `Hmmm, I like looking into tech, such as JS where there is unlimited stuff to learn, and work on both the ends ;]`;
 
 export function SpotlightPreview() {
   return (
@@ -14,13 +14,14 @@ export function SpotlightPreview() {
         fill="white"
       />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          Jayanth Gajula 
-        </h1> 
-        <br />
-         <h1 className="text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">A fullstack developer.</h1>
+        <h1 className="text-[3.5rem] md:text-[4.5rem] leading-relaxed font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+          Jayanth Gajula
+        </h1>
+        <h1 className="text-[2.5rem] md:text-[3.5rem] leading-none font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+          A fullstack developer.
+        </h1>
         <div className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-        <TextGenerateEffect words={words} />
+          <TextGenerateEffect words={words} />
         </div>
       </div>
     </div>
