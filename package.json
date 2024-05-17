@@ -9,16 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-three/fiber": "^8.16.1",
     "@tabler/icons-react": "^3.1.0",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "framer-motion": "^11.0.25",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.4",
     "lucide-react": "^0.365.0",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.2.2",
+    "react-element-to-jsx-string": "^15.0.0",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.163.0"
   },

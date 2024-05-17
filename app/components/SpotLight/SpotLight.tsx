@@ -4,7 +4,7 @@ import { cn } from "../../utils/cn";
 import { Spotlight } from "../ui/spotlight";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const words = `Hmmm, I like looking into tech, such as JS where there is unlimited stuff to learn, and work on both the ends ;]`;
+const words = `Hmm, I like looking into "Tech / UI / UX", such as JS where there is unlimited stuff to learn, and work on both the ends, trying to get an overlook of everything ;]`;
 
 export function SpotlightPreview() {
   return (

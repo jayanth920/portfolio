@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import myPic from "../../content/myPic.jpg"
+// import myPic from "content/myPic.jpg"
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "../ui/canvas-reveal-effect";
 
@@ -61,7 +61,7 @@ const Card = ({
 const AceternityIcon = () => {
   return (
     <div className="h-full w-full">
-      <Image src={myPic} width={200} alt="Picture of a dev..."/>
+      <Image src={"/content/myPic.jpg"} width={200} height={250} alt="Picture of a dev..."/>
     </div>
   );
 };
