@@ -1,0 +1,51 @@
+.labelInfo{
+    top: 30vh;
+    width: 100vw;
+    position: absolute;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.left{
+    position:absolute;
+    top: 35vh;
+    height: fit-content;
+    width: fit-content;
+    margin: 1rem 2rem 1rem 1rem;
+    max-width: 15ch;
+    min-width: 12ch;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.1;
+    overflow: hidden;
+
+}
+.right{
+    position: absolute;
+    top: 36vh;
+    right: 20vw;
+    height: fit-content;
+    width: fit-content;
+    max-width: 15ch;
+    min-width: 12ch;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 1.1;
+    overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .labelInfo {
+      flex-direction: column; /* Stack the sections vertically on smaller screens */
+    }
+  
+    .right {
+      top: unset; /* Remove top positioning to allow it to flow below */
+      top: 60vh; /* Add margin to separate left and right sections */
+      left: 20px;
+      margin-top: 20px;
+    }
+  }

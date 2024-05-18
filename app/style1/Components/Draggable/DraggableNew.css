@@ -1,0 +1,39 @@
+.new {
+    cursor: url(/content/assets/cursors/windows95-grab.png), auto;
+    overflow: visible;
+}
+
+.newSticker {
+    position:absolute;
+    width: 20vw;
+    padding-top: 30px;
+    left: 1vw;
+}
+
+.close {
+    position: absolute;
+    height: 25px;
+    width: 24px;
+    top: 26px;
+    left: 120px;
+    background: black;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.close:hover {
+    cursor: url(/content/assets/banners/closeHover2.png) 10 10, auto; /* Use the actual path to your small image */
+}
+
+/* Set transform origin to the center of the new image */
+.newSticker svg {
+    transform-origin: center center;
+}
+@media (max-width: 900px) {
+    .newSticker {
+      right: 40px;
+      height: 50px;/* Stack the sections vertically on smaller screens */
+    }
+}

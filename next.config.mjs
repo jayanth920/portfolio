@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/style2',
+        permanent: true,
+      },
+
+    ]
+  },
   images: {
     remotePatterns: [
       {
