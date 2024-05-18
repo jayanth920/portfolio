@@ -81,7 +81,8 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  cursor: url(/content/assets/cursors/windows95-cursor.png),auto;
+  cursor: url(/content/assets/cursors/windows95-pointer.png), auto;
+
 } 
 
 .formsub_btn:active {

@@ -141,6 +141,8 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  cursor: url(/content/assets/cursors/windows95-pointer.png), auto;
+
 }
 
 .codeButton:active {
@@ -169,6 +171,8 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  cursor: url(/content/assets/cursors/windows95-pointer.png), auto;
+
 }
 
 .liveButton:active {

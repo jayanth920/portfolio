@@ -1,9 +1,9 @@
-.contact-form {
+.contact-form2 {
   width: 400px;
   font-family: "Beatrice";
 }
 
-.contact-form form {
+.contact-form2 form {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -11,7 +11,7 @@
   font-size: 16px;
 }
 
-.contact-form form input {
+.contact-form2 form input {
   width: 20rem;
   height: 35px;
   padding: 7px;
@@ -22,14 +22,14 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .contact-form form {
+  .contact-form2 form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
     font-size: 16px;
   }
-  .contact-form form input {
+  .contact-form2 form input {
     width: 100%;
     height: 35px;
     padding: 7px;
@@ -40,11 +40,11 @@
 
 }
 
-.contact-form form input:focus {
+.contact-form2 form input:focus {
   border: 2px solid rgba(0, 206, 158, 1);
 }
 
-.contact-form form textarea {
+.contact-form2 form textarea {
   max-width: 100%;
   min-width: 100%;
   width: 100%;
@@ -57,15 +57,15 @@
   color: #000;
 }
 
-.contact-form form textarea:focus {
+.contact-form2 form textarea:focus {
   border: 2px solid rgba(0, 206, 158, 1);
 }
 
-.contact-form form label {
+.contact-form2 form label {
   margin-top: 1rem;
 }
 
-.contact-form .formsub_btn {
+.contact-form2 .formsub_btn {
 font-family: "Open Sans", sans-serif;
 font-size: 16px;
 letter-spacing: 2px;
