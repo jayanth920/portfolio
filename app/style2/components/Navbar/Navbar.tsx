@@ -28,7 +28,7 @@ function Navbar() {
             <Link href="/style1">
                 <ProjectButton text={"Style #1"} bool={true}/>
             </Link>
-                <ProjectButton text={"Viewing Style #2"} bool={false} color="yellow"/>
+                {/* <ProjectButton text={"Viewing Style #2"} bool={false} color="yellow"/> */}
                 <HoverBorderGradient
                     containerClassName="rounded-full"
                     as="button"
