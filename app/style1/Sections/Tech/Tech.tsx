@@ -4,7 +4,7 @@ import "./Tech.css"
 
 function About() {
   return (
-    <div className="tech-container">
+    <div className="tech-container" id="techstack">
         <TechBanner />
         <TechBox />
     </div>

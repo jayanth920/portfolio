@@ -3,7 +3,7 @@ import ProjectBox from '../../Components/ProjectBox/ProjectBox'
 import "./Projects.css"
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <ProjectBanner/>
       <ProjectBox/>
     </div>

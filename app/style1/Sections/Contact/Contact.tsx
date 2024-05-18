@@ -3,7 +3,7 @@ import ContactForm from '../../Components/ContactForm/ContactForm'
 import "./Contact.css"
 function Contact() {
   return (
-    <div className='contactWrapper'>
+    <div className='contactWrapper' id="contact">
         <ContactBanner />
         <div className="contactFormWrapper">
         <ContactForm />
