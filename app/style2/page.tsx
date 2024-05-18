@@ -7,7 +7,7 @@ import Techstack from "./components/TechStack/TechStack";
 import Contact from "./components/Contact/Contact";
 import "./page.css"
 
-export function DefaultPage() {
+function Page() {
   return (
     <div className = "flex flex-col justify-center items-center min-h-screen w-full mt-32">
     <Intro/>
@@ -20,4 +20,4 @@ export function DefaultPage() {
     </div>
   );
 }
-export default DefaultPage
+export default Page
