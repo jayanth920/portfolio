@@ -3,6 +3,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
+import { AnimatedTooltip } from "@/app/style2/components/ui/animated-tooltip";
 
 const ContactForm = () => {
   const [email, setEmail] = useState("")
@@ -12,6 +13,28 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [subject, setSubject] = useState("");
   const form = useRef<any>();
+  const sites = [
+    {
+      id: 1,
+      name: "Linkedin",
+      designation: "",
+      image:
+        "https://i.gyazo.com/76f926f4dc405635082d63d553c8e5ab.png",
+      // onClick:()=>{
+      //   window.open("www.linkedin.com", '_blank', 'noopener,noreferrer');
+
+      // }
+      href:"https://www.linkedin.com/in/jayanth920/"
+    },
+    {
+      id: 2,
+      name: "Github",
+      designation: "",
+      image:
+        "https://i.gyazo.com/ef7a02b69836dc8b6a732a54c4200dcb.png",
+        href:"https://github.com/jayanth920"
+    },
+  ];
 
   // Custom debounce function
   const debounce = (func: any, delay:any) => {
@@ -132,6 +155,9 @@ const ContactForm = () => {
         }}/>
         <input className="formsub_btn" type="submit" value="Send" />
       </form>
+      <div className="flex flex-row items-center justify-start mt-10 mb-10 w-full">
+      <AnimatedTooltip items={sites} />
+    </div>
     </div>
   );
 };
