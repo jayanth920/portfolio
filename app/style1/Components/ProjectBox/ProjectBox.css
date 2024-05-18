@@ -8,7 +8,7 @@
 }
 
 .project {
-  width: 44.359rem;
+  width: 44.328rem;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -241,7 +241,7 @@
 }
 .project_placeholder {
   display: flex;
-  width: 44.359rem;
+  width: 44.328rem;
   /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
