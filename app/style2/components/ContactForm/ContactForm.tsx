@@ -132,7 +132,7 @@ const ContactForm = () => {
   // };
 
   return (
-    <div className="contact-form2">
+    <div className="contact-form2" style={{color:"white"}}>
       <form ref={form} onSubmit={handleFormSubmit}>
         {err && <p style={{color:"red"}}>Please fill all the fields correctly ! </p>}
         <label>Name</label>
